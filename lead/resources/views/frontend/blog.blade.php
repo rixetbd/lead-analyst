@@ -11,12 +11,12 @@
                     <div class="bread-inner">
                         <div class="bread-menu">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Blog Grid 2</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#">Blog</a></li>
                             </ul>
                         </div>
                         <div class="bread-title">
-                            <h2>Blog Grid 2</h2>
+                            <h2>Blog</h2>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
             <div class="col-lg-4 mt60">
                 <div class="single-blog-post- shdo">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid"></a>
+                        <a href="#"><img src="{{ asset('frontend_assets') }}/images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid"></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Nodejs</a></span>
                             <span class="posted-on-">
@@ -69,7 +69,7 @@
             <div class="col-lg-4 mt60">
                 <div class="single-blog-post- shdo">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid"></a>
+                        <a href="#"><img src="{{ asset('frontend_assets') }}/images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid"></a>
                         <div class="entry-blog-post bg-gradient12">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Laravel</a></span>
                             <span class="posted-on-">
@@ -104,7 +104,7 @@
             <div class="col-lg-4 mt60">
                 <div class="single-blog-post- shdo">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid"></a>
+                        <a href="#"><img src="{{ asset('frontend_assets') }}/images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid"></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Mobile Application</a></span>
                             <span class="posted-on-">
@@ -140,7 +140,7 @@
             <div class="col-lg-4 mt60">
                 <div class="single-blog-post- shdo">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid"></a>
+                        <a href="#"><img src="{{ asset('frontend_assets') }}/images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid"></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Nodejs</a></span>
                             <span class="posted-on-">
@@ -175,7 +175,7 @@
             <div class="col-lg-4 mt60">
                 <div class="single-blog-post- shdo">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid"></a>
+                        <a href="#"><img src="{{ asset('frontend_assets') }}/images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid"></a>
                         <div class="entry-blog-post bg-gradient13">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Laravel</a></span>
                             <span class="posted-on-">
@@ -210,7 +210,7 @@
             <div class="col-lg-4 mt60">
                 <div class="single-blog-post- shdo">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid"></a>
+                        <a href="#"><img src="{{ asset('frontend_assets') }}/images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid"></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Mobile Application</a></span>
                             <span class="posted-on-">

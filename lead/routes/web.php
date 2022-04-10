@@ -17,7 +17,11 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', function () { return view('frontend.index');})->name('frontend.index');
 Route::get('/blog', function () { return view('frontend.blog');})->name('frontend.blog');
+Route::get('/why-us', function () { return view('frontend.why-us');})->name('frontend.whyus');
+Route::get('/team', function () { return view('frontend.team');})->name('frontend.team');
+Route::get('/client-reviews', function () { return view('frontend.client-reviews');})->name('frontend.client.reviews');
 Route::get('/contact', function () { return view('frontend.contact');})->name('frontend.contact');
+Route::get('/user-login', function () { return view('frontend.login');})->name('frontend.login');
 
 Auth::routes();
 

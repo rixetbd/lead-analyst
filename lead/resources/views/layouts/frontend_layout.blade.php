@@ -50,7 +50,7 @@
                             <a href="{{ route('frontend.index') }}" class="menu-links">Home</a>
                         </li>
 
-						<li class="sbmenu rpdropdown">
+                        <li class="sbmenu rpdropdown">
                             <a href="#" class="menu-links">Services</a>
                             <div class="nx-dropdown menu-dorpdown">
                                 <div class="sub-menu-section">
@@ -59,9 +59,23 @@
                                             <ul>
                                                 <li><a href="portfolio.html">Portfolio Grid 1</a> </li>
                                                 <li><a href="portfolio-2.html">Portfolio Grid 2</a> </li>
-                                                <li><a href="portfolio-block.html">Portfolio Wide Block</a> </li>
-                                                <li><a href="portfolio-block-2.html">Portfolio Wide Block v2</a> </li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="sbmenu rpdropdown">
+                            <a href="#" class="menu-links">About Us</a>
+                            <div class="nx-dropdown menu-dorpdown">
+                                <div class="sub-menu-section">
+                                    <div class="sub-menu-center-block">
+                                        <div class="sub-menu-column smfull">
+                                            <ul>
+                                                <li><a href="{{route('frontend.whyus')}}">Why us</a> </li>
+                                                <li><a href="{{route('frontend.team')}}">Team Member</a> </li>
+                                                <li><a href="{{route('frontend.client.reviews')}}">Testimonials</a> </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -70,13 +84,10 @@
                         </li>
 
                         <li class="">
-                            <a href="#" class="menu-links">About Us</a>
-                        </li>
-                        <li class="">
                             <a href="{{ route('frontend.blog') }}" class="menu-links">Blog</a>
                         </li>
-                        
-						<li class="">
+
+                        <li class="">
                             <a href="{{ route('frontend.contact') }}" class="menu-links">Contact</a>
                         </li>
                     </ul>
@@ -247,9 +258,10 @@
     @yield('content')
 
 
-    
+
     <!--Start Footer-->
-    <footer>
+
+    <footer class="ftshap">
         <div class="footer-row1">
             <div class="container">
                 <div class="row">
@@ -272,25 +284,52 @@
                 </div>
             </div>
         </div>
+        <div class="footer-svg">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 1920 80" style="enable-background:new 0 0 1920 80;" xml:space="preserve">
+                <path class="st0" d="M0,27.2c589.2,129.4,1044-69,1920,31v-60H3.2L0,27.2z" />
+            </svg>
+        </div>
         <div class="footer-row2">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-3 col-sm-6  ftr-brand-pp">
-                        <a class="navbar-brand mt30 mb25 f-dark-logo" href="#"> <img
-                                src="{{ asset('frontend_assets') }}/images/logo.png" alt="Logo" /></a>
-                        <a class="navbar-brand mt30 mb25 f-white-logo" href="#"> <img
-                                src="{{ asset('frontend_assets') }}/images/white-logo.png" alt="Logo" /></a>
-                        <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                            Enter your email</p>
-                        <a href="#" class="btn-main bg-btn3 lnk mt20">Become Partner <i
-                                class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <h5>Service</h5>
+                        <ul class="footer-address-list link-hover">
+                            <li><a href="javascript:void(0)">Logo & Branding</a></li>
+                            <li><a href="javascript:void(0)">Website Development</a></li>
+                            <li><a href="javascript:void(0)">Mobile App Development</a></li>
+                            <li><a href="javascript:void(0)">Search Engine Optimization</a></li>
+                            <li><a href="javascript:void(0)">Pay-Per-Click</a></li>
+                            <li><a href="javascript:void(0)">Social Media Marketing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5>Company</h5>
+                        <ul class="footer-address-list link-hover">
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog-grid.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5>Support</h5>
+                        <ul class="footer-address-list link-hover">
+                            <li><a href="get-quote.html">Contact</a></li>
+                            <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                            <li><a href="javascript:void(0)">Sitemap</a></li>
+                        </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <h5>Contact Us</h5>
                         <ul class="footer-address-list ftr-details">
                             <li>
                                 <span><i class="fas fa-envelope"></i></span>
-                                <p>Email <span> <a href="mailto:info@businessname.com">info@businessname.com</a></span>
+                                <p>Email <span> <a
+                                            href="/cdn-cgi/l/email-protection#5831363e37183a2d2b31363d2b2b3639353d763b3735"><span
+                                                class="__cf_email__"
+                                                data-cfemail="e78e898188a78592948e8982949489868a82c984888a">[email&#160;protected]</span></a></span>
                                 </p>
                             </li>
                             <li>
@@ -303,68 +342,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-sm-6">
-                        <h5>Company</h5>
-                        <ul class="footer-address-list link-hover">
-                            <li><a href="get-quote.html">Contact</a></li>
-                            <li><a href="javascript:void(0)">Customer's FAQ</a></li>
-                            <li><a href="javascript:void(0)">Refund Policy</a></li>
-                            <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                            <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-                            <li><a href="javascript:void(0)">License & Copyright</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 footer-blog-">
-                        <h5>Latest Blogs</h5>
-                        <div class="single-blog-">
-                            <div class="post-thumb"><a href="#"><img
-                                        src="{{ asset('frontend_assets') }}/images/blog/blog-small.jpg" alt="blog"></a>
-                            </div>
-                            <div class="content">
-                                <p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>April 15,
-                                        2020</span></p>
-                                <h4 class="title"><a href="blog-sngle.html">We Provide you Best &amp; Creative
-                                        Consulting Service</a></h4>
-                            </div>
-                        </div>
-                        <div class="single-blog-">
-                            <div class="post-thumb"><a href="#"><img
-                                        src="{{ asset('frontend_assets') }}/images/blog/blog-small.jpg" alt="blog"></a>
-                            </div>
-                            <div class="content">
-                                <p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>April 15,
-                                        2020</span></p>
-                                <h4 class="title"><a href="blog-sngle.html">We Provide you Best &amp; Creative
-                                        Consulting Service</a></h4>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer-brands">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 v-center">
-                        <h5 class="mb10">Top App Development Companies</h5>
-                        <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                            Enter your email</p>
-                    </div>
-                    <div class="col-lg-8 v-center">
-                        <ul class="footer-badges-">
-                            <li><a href="#"><img src="{{ asset('frontend_assets') }}/images/about/badges-a.png"
-                                        alt="badges"></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend_assets') }}/images/about/badges-b.png"
-                                        alt="badges"></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend_assets') }}/images/about/badges-c.png"
-                                        alt="badges"></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend_assets') }}/images/about/badges-d.png"
-                                        alt="badges"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <hr class="hline">
         <div class="footer-row3">
             <div class="copyright">
                 <div class="container">
@@ -392,6 +373,7 @@
             </div>
         </div>
     </footer>
+    <!--End Footer V1-->
     <!--End Footer-->
 
     <!-- js placed at the end of the document so the pages load faster -->
@@ -400,9 +382,11 @@
     <script src="{{ asset('frontend_assets') }}/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('frontend_assets') }}/js/plugin.min.js"></script>
     <script src="{{ asset('frontend_assets') }}/js/preloader.js"></script>
-    <script src="{{ asset('frontend_assets') }}/js/dark-mode.js"></script>
     <!--common script file-->
     <script src="{{ asset('frontend_assets') }}/js/main.js"></script>
+
+    {{-- @yield('frontend_script') --}}
+    @stack('frontend_script')
 </body>
 
 </html>
