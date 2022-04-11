@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Niwax - Web Design &amp; Digital Marketing Agency HTML Template</title>
+    <title>Web Design &amp; Digital</title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     <meta name="author" content="rajesh-doot">
@@ -75,7 +75,8 @@
                                             <ul>
                                                 <li><a href="{{route('frontend.whyus')}}">Why us</a> </li>
                                                 <li><a href="{{route('frontend.team')}}">Team Member</a> </li>
-                                                <li><a href="{{route('frontend.client.reviews')}}">Testimonials</a> </li>
+                                                <li><a href="{{route('frontend.client.reviews')}}">Testimonials</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -90,6 +91,46 @@
                         <li class="">
                             <a href="{{ route('frontend.contact') }}" class="menu-links">Contact</a>
                         </li>
+
+                        <!--menu right border-->
+                        <li class="contact-show">
+                            <a href="#" class="btn-round- btn-br bg-btn"><i class="fas fa-shopping-cart"></i> <span
+                                    class="addtocart">1</span></a>
+                            <div class="contact-inquiry">
+                                <div class="contact-info-">
+                                    <div class="contct-heading">Niwax Contacts</div>
+                                    <div class="inquiry-card-nn hrbg">
+                                        <div class="title-inq-c">FOR HR DEPARTMENT</div>
+                                        <ul>
+                                            <li class="mb0"><img src="images/flags/us.svg" alt="us office"
+                                                    class="flags-size"> <a href="tel:1111111111">+1-123-456-7890</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="inquiry-card-nn">
+                                        <div class="title-inq-c">FOR SALES DEPARTMENT</div>
+                                        <ul>
+                                            <li><a href="tel:1111111111"><img src="images/flags/us.svg" alt="us office"
+                                                        class="flags-size"> +1-123-456-7890</a></li>
+                                            <li><a href="tel:1111111111"><img src="images/flags/au.svg"
+                                                        alt="australia office" class="flags-size"> +1-123-456-7890</a>
+                                            </li>
+                                            <li><i class="fab fa-skype"></i><a
+                                                    href="skype:niwax.company?call">niwax.company</a></li>
+                                            <li><i class="fas fa-envelope"></i><a
+                                                    href="mailto:info@businessname.com">info@businessname.com</a></li>
+                                        </ul>
+                                    </div>
+
+                                    {{  }}
+                                    
+                                    <div class="text-right">
+                                        <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Small Button <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                     </ul>
                     <!-- mobile + desktop - sidebar menu- dark mode witch and button -->
                     <ul class="nav-list right-end-btn">
@@ -307,18 +348,22 @@
                     <div class="col-lg-3 col-sm-6">
                         <h5>Company</h5>
                         <ul class="footer-address-list link-hover">
+                            <li><a href="service.html">Home</a></li>
                             <li><a href="about.html">About us</a></li>
                             <li><a href="service.html">Services</a></li>
                             <li><a href="portfolio.html">Portfolio</a></li>
                             <li><a href="blog-grid.html">Blogs</a></li>
+                            <li><a href="blog-grid.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <h5>Support</h5>
                         <ul class="footer-address-list link-hover">
+                            <li><a href="get-quote.html">Our Team</a></li>
                             <li><a href="get-quote.html">Contact</a></li>
                             <li><a href="javascript:void(0)">Privacy Policy</a></li>
                             <li><a href="javascript:void(0)">Sitemap</a></li>
+                            <li><a href="javascript:void(0)">Social</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-sm-6">
@@ -327,9 +372,8 @@
                             <li>
                                 <span><i class="fas fa-envelope"></i></span>
                                 <p>Email <span> <a
-                                            href="/cdn-cgi/l/email-protection#5831363e37183a2d2b31363d2b2b3639353d763b3735"><span
-                                                class="__cf_email__"
-                                                data-cfemail="e78e898188a78592948e8982949489868a82c984888a">[email&#160;protected]</span></a></span>
+                                            href="/cdn-cgi/l/email-protection#5831363e37183a2d2b31363d2b2b3639353d763b3735">
+                                            <span class="__cf_email__">rixetbd@gmail.com</span></a></span>
                                 </p>
                             </li>
                             <li>
@@ -363,9 +407,8 @@
                                 <a href="javascript:void(0)" target="blank"><i class="fab fa-behance"></i></a>
                             </div>
                             <div class="footer-">
-                                <p>© 2020-2022. All Rights Reserved By <a
-                                        href="https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh
-                                        Doot</a></p>
+                                <p>&copy; Copyright {{ date('Y') }}. All Rights Reserved By <a
+                                        href="https://dev-rixetbd.pantheonsite.io" target="blank">Rabiul Islam</a></p>
                             </div>
                         </div>
                     </div>

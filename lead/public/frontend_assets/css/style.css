@@ -714,7 +714,7 @@ div.custom-nav>ul>li:hover .nx-dropdown {
     box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 0.04);
     border-top: 2px solid #f3f3f3;
     width: 100%;
-    padding: 40px 0;
+    padding: 10px 0;
     display: inline-block;
     background-color: #ffffff;
     margin-top: 4px;
@@ -7352,7 +7352,7 @@ body.hc-nav-open {
 
 /**update 1.9**/
 .custom-nav .menu-dorpdown {
-    width: 240px;
+    width: 180px;
     margin: 0 auto;
     border-radius: 0px 0px 20px 20px;
 }
