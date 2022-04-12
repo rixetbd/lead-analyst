@@ -21,6 +21,7 @@ Route::get('/why-us', function () { return view('frontend.why-us');})->name('fro
 Route::get('/team', function () { return view('frontend.team');})->name('frontend.team');
 Route::get('/client-reviews', function () { return view('frontend.client-reviews');})->name('frontend.client.reviews');
 Route::get('/contact', function () { return view('frontend.contact');})->name('frontend.contact');
+Route::get('/cart', function () { return view('frontend.cart');})->name('frontend.cart');
 Route::get('/user-login', function () { return view('frontend.login');})->name('frontend.login');
 
 Auth::routes();

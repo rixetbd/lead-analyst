@@ -91,6 +91,12 @@
                             <a href="{{ route('frontend.contact') }}" class="menu-links">Contact</a>
                         </li>
 
+                        <li class="">
+                            <a href="#" class="menu-links"><i class="fas fa-user"></i> A/C<span class="circle"></span></a>
+                        </li>
+
+
+
                         <!--menu right border-->
                         <li class="contact-show">
                             <a href="#" class="btn-round- btn-br bg-btn"><i class="fas fa-shopping-cart"></i> <span
@@ -121,9 +127,9 @@
                                         </ul>
                                     </div>
 
-                                    
+
                                     <div class="d-flex justify-content-end pe-3 pb-4">
-                                        <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">View Cart<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                                        <a href="{{route('frontend.cart')}}" class="mt10 btn-main btn-small bg-btn3 lnk">View Cart<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                                     </div>
                                 </div>
                             </div>
