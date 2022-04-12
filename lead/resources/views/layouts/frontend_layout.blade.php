@@ -28,7 +28,7 @@
     <!--Start Preloader -->
     <div class="onloadpage" id="page_loader">
         <div class="pre-content">
-            <div class="logo-pre"><img src="{{ asset('frontend_assets') }}/images/logo.png" alt="Logo"
+            <div class="logo-pre"><img src="{{ asset('frontend_assets') }}/images/favicon.png" alt="Logo"
                     class="img-fluid" /></div>
             <div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency</div>
         </div>
@@ -38,10 +38,9 @@
     <header class="nav-bg-w main-header navfix fixed-top menu-white">
         <div class="container m-pad">
             <div class="menu-header">
-                <div class="dsk-logo"><a class="nav-brand" href="{{ route('frontend.index') }}">
-                        <img src="{{ asset('frontend_assets') }}/images/white-logo.png" alt="Logo"
-                            class="mega-white-logo" />
-                        <img src="{{ asset('frontend_assets') }}/images/logo.png" alt="Logo" class="mega-darks-logo" />
+                <div class="dsk-logo">
+                    <a class="nav-brand" href="{{ route('frontend.index') }}">
+                        <img src="{{ asset('frontend_assets') }}/images/logo.png" alt="Logo" class="mega-darks-logo" style="max-width:200px;;"/>
                     </a>
                 </div>
                 <div class="custom-nav" role="navigation">
@@ -98,11 +97,11 @@
                                     class="addtocart">1</span></a>
                             <div class="contact-inquiry">
                                 <div class="contact-info-">
-                                    <div class="contct-heading">Niwax Contacts</div>
+                                    <div class="contct-heading">Cart</div>
                                     <div class="inquiry-card-nn hrbg">
                                         <div class="title-inq-c">FOR HR DEPARTMENT</div>
                                         <ul>
-                                            <li class="mb0"><img src="images/flags/us.svg" alt="us office"
+                                            <li class="mb0"><img src="{{asset('frontend_assets')}}/images/flags/us.svg" alt="us office"
                                                     class="flags-size"> <a href="tel:1111111111">+1-123-456-7890</a>
                                             </li>
                                         </ul>
@@ -110,9 +109,9 @@
                                     <div class="inquiry-card-nn">
                                         <div class="title-inq-c">FOR SALES DEPARTMENT</div>
                                         <ul>
-                                            <li><a href="tel:1111111111"><img src="images/flags/us.svg" alt="us office"
+                                            <li><a href="tel:1111111111"><img src="{{asset('frontend_assets')}}/images/flags/us.svg" alt="us office"
                                                         class="flags-size"> +1-123-456-7890</a></li>
-                                            <li><a href="tel:1111111111"><img src="images/flags/au.svg"
+                                            <li><a href="tel:1111111111"><img src="{{asset('frontend_assets')}}/images/flags/au.svg"
                                                         alt="australia office" class="flags-size"> +1-123-456-7890</a>
                                             </li>
                                             <li><i class="fab fa-skype"></i><a
@@ -122,10 +121,9 @@
                                         </ul>
                                     </div>
 
-                                    {{  }}
                                     
-                                    <div class="text-right">
-                                        <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">Small Button <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                                    <div class="d-flex justify-content-end pe-3 pb-4">
+                                        <a href="#" class="mt10 btn-main btn-small bg-btn3 lnk">View Cart<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                                     </div>
                                 </div>
                             </div>

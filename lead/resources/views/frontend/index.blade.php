@@ -8,11 +8,9 @@
                 <div class="row">
                     <div class="col-lg-6 v-center">
                         <div class="header-heading">
-                            <h1 class="wow fadeInUp" data-wow-delay=".2s">We Analyze & Understand Your Buyers</h1>
-                            <p class="wow fadeInUp" data-wow-delay=".4s">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Suspendisse faucibus, risus sit amet auctor sodales, justo erat tempor
-                                eros.</p>
-                            <a href="#" class="btn-main bg-btn lnk wow fadeInUp" data-wow-delay=".6s">Get Strategy Call
+                            <h1 class="wow fadeInUp" data-wow-delay=".2s">We are ready to Analyze your Business</h1>
+                            <p class="wow fadeInUp" data-wow-delay=".4s">We are ready for any of your needs. We stand by you in all aspects of digital services. We are always ready to analyze and understand your business. So why are you late?</p>
+                            <a href="#" class="btn-main bg-btn lnk wow fadeInUp" data-wow-delay=".6s">Contact us
                                 <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                         </div>
                     </div>
@@ -25,88 +23,7 @@
         </div>
     </section>
     <!--End Hero-->
-    <!--Start statistics-->
-    <div class="statistics-section bg-gradient6 pad-tb tilt3d">
-        <div class="container">
-            <div class="row justify-content-center t-ctr">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="statistics">
-                        <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                            <img src="{{ asset('frontend_assets') }}/images/icons/startup.svg" alt="years"
-                                class="img-fluid" />
-                        </div>
-                        <div class="statnumb">
-                            <span class="counter">15</span><span>+</span>
-                            <p>Year In Business</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="statistics">
-                        <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                            <img src="{{ asset('frontend_assets') }}/images/icons/team.svg" alt="team"
-                                class="img-fluid" />
-                        </div>
-                        <div class="statnumb">
-                            <span class="counter">80</span><span>+</span>
-                            <p>Team Members</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row small t-ctr">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="statistics">
-                        <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                            <img src="{{ asset('frontend_assets') }}/images/icons/deal.svg" alt="happy"
-                                class="img-fluid" />
-                        </div>
-                        <div class="statnumb">
-                            <span class="counter">450</span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="statistics">
-                        <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                            <img src="{{ asset('frontend_assets') }}/images/icons/computers.svg" alt="project"
-                                class="img-fluid" />
-                        </div>
-                        <div class="statnumb counter-number">
-                            <span class="counter">48</span><span>k</span>
-                            <p>Projects Done</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="statistics">
-                        <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                            <img src="{{ asset('frontend_assets') }}/images/icons/worker.svg" alt="work"
-                                class="img-fluid" />
-                        </div>
-                        <div class="statnumb">
-                            <span class="counter">95</span><span>k</span>
-                            <p>Hours Worked</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="statistics mb0">
-                        <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                            <img src="{{ asset('frontend_assets') }}/images/icons/customer-service.svg" alt="support"
-                                class="img-fluid" />
-                        </div>
-                        <div class="statnumb">
-                            <span>24/7</span>
-                            <p>Support Available</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End statistics-->
+
     <!--Start About-->
     <section class="about-lead-gen pad-tb">
         <div class="container">
