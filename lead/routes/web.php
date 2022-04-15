@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,7 @@ Route::get('/user-login', function () { return view('frontend.login');})->name('
 Auth::routes();
 
 Route::get('/admin', [HomeController::class, 'index'])->name('admin');
+
+Route::controller(MemberController::class)->group(function(){
+    Route::get('/admin/add-member', 'create')->name('admin.member.create');
+});

@@ -203,7 +203,7 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="layouts-horizontal.html">Horizontal</a></li>
+                                    <li><a href="{{ route('admin.member.create') }}">Add Users</a></li>
                                 </ul>
                             </li>
 
