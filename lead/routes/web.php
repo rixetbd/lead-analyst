@@ -30,5 +30,6 @@ Auth::routes();
 Route::get('/admin', [HomeController::class, 'index'])->name('admin');
 
 Route::controller(MemberController::class)->group(function(){
-    Route::get('/admin/add-member', 'create')->name('admin.member.create');
+    Route::get('/admin/member/new', 'create')->name('admin.member.create');
+    Route::post('/admin/member/store', 'store')->name('admin.member.store');
 });
