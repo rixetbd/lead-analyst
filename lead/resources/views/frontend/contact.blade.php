@@ -55,9 +55,9 @@
 									<div class="form-group col-sm-6">
 										<select name="Dtype" id="Dtype" required>
 											<option value="">Select Requirement</option>
-											<option value="web">web</option>
-											<option value="graphic">graphic</option>
-											<option value="video">video</option>
+											<option value="lead">Lead Genaration</option>
+											<option value="web">Web</option>
+											<option value="graphic">Graphic</option>
 										</select>
 										<div class="help-block with-errors"></div>
 									</div>

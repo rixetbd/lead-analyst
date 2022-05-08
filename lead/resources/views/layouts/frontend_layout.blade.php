@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Web Design &amp; Digital</title>
+    <title>RonGTuLi</title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     <meta name="author" content="rajesh-doot">
@@ -30,7 +30,7 @@
         <div class="pre-content">
             <div class="logo-pre"><img src="{{ asset('frontend_assets') }}/images/favicon.png" alt="Logo"
                     class="img-fluid" /></div>
-            <div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency</div>
+            <div class="pre-text- text-radius text-light text-animation bg-b">RonGTuLi - Creative Agency</div>
         </div>
     </div>
     <!--End Preloader -->
@@ -56,8 +56,12 @@
                                     <div class="sub-menu-center-block">
                                         <div class="sub-menu-column smfull">
                                             <ul>
-                                                <li><a href="portfolio.html">Portfolio Grid 1</a> </li>
-                                                <li><a href="portfolio-2.html">Portfolio Grid 2</a> </li>
+                                                <li><a href="portfolio.html">Data Entry</a> </li>
+                                                <li><a href="portfolio-2.html">Lead Genaration</a> </li>
+                                                <li><a href="portfolio-2.html">Web Development</a> </li>
+                                                <li><a href="portfolio-2.html">Web Development</a> </li>
+                                                <li><a href="portfolio-2.html">Web Development</a> </li>
+                                                <li><a href="portfolio-2.html">Web Development</a> </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -74,7 +78,7 @@
                                             <ul>
                                                 <li><a href="{{route('frontend.whyus')}}">Why us</a> </li>
                                                 <li><a href="{{route('frontend.team')}}">Team Member</a> </li>
-                                                <li><a href="{{route('frontend.client.reviews')}}">Testimonials</a>
+                                                <li><a href="{{route('frontend.client.reviews')}}">Clients Review</a>
                                                 </li>
                                             </ul>
                                         </div>

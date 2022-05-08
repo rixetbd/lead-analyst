@@ -52,13 +52,14 @@
                                 class="ss-inline-share-wrapper ss-hover-animation-fade ss-inline-total-counter-left ss-left-inline-content ss-small-icons ss-with-spacing ss-circle-icons ss-without-labels">
                                 <div class="ss-inline-share-content">
                                     <div class="ss-social-icons-container">
-                                        <a href="javascript:void(0)">Shares</a>
-                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
-                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
-                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
-                                        <a href="javascript:void(0)" target="blank"><i class="fas fa-envelope"></i></a>
-                                        <a href="javascript:void(0)" target="blank"><i
-                                                class="fab fa-facebook-messenger"></i></a>
+                                        <a>Shares</a>
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=(Link)" target="blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="https://twitter.com/intent/tweet?url=(Link)" target="blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=(Link)" target="blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="mailto:?&subject=&cc=&bcc=&body=(Link)" target="blank"><i class="fas fa-envelope"></i></a>
+                                        <a href="https://pinterest.com/pin/create/button/?url=(Link)" target="blank"><i class="fas fa-pinterest"></i></a>
+                                        {{-- <a href="javascript:void(0)" target="blank"><i
+                                                class="fab fa-facebook-messenger"></i></a> --}}
                                     </div>
                                 </div>
                             </div>
