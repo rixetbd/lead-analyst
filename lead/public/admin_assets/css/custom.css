@@ -1,0 +1,9 @@
+#datatable-buttons_filter label:nth-child(1){
+    float: right;
+    margin-top: -16px;
+}
+
+#datatable-buttons_filter label:nth-child(1) input{
+    min-width: 350px;
+}
+

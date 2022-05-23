@@ -21,6 +21,7 @@
         <link href="{{ asset('admin_assets') }}/css/icons.min.css" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="{{ asset('admin_assets') }}/css/app-dark.min.css" id="app-stylesheet" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('admin_assets') }}/css/custom.css" id="app-stylesheet" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -143,17 +144,9 @@
 
                 <!-- LOGO -->
                 <div class="logo-box">
-                    <a href="index.html" class="logo logo-dark text-center">
+                    <a href="{{route('admin')}}" class="logo logo-light text-center">
                         <span class="logo-lg">
-                            <img src="{{ asset('admin_assets') }}/images/logo-dark.png" alt="" height="16">
-                        </span>
-                        <span class="logo-sm">
-                            <img src="{{ asset('admin_assets') }}/images/logo-sm.png" alt="" height="24">
-                        </span>
-                    </a>
-                    <a href="index.html" class="logo logo-light text-center">
-                        <span class="logo-lg">
-                            <img src="{{ asset('admin_assets') }}/images/logo-light.png" alt="" height="16">
+                            <img src="{{ asset('admin_assets') }}/images/logo-light.png" alt="" height="55">
                         </span>
                         <span class="logo-sm">
                             <img src="{{ asset('admin_assets') }}/images/logo-sm.png" alt="" height="24">
@@ -190,7 +183,7 @@
                             <li class="menu-title">Navigation</li>
 
                             <li>
-                                <a href="index.html">
+                                <a href="{{route('admin')}}">
                                     <i class="mdi mdi-view-dashboard"></i>
                                     <span> Dashboard </span>
                                 </a>
@@ -203,7 +196,8 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{ route('admin.member.create') }}">Add Users</a></li>
+                                    <li><a href="{{ route('admin.member.all') }}">Employee</a></li>
+                                    <li><a href="{{ route('admin.member.role') }}">Role</a></li>
                                 </ul>
                             </li>
 
@@ -330,6 +324,8 @@
 
         <!-- App js -->
         <script src="{{ asset('admin_assets') }}/js/app.min.js"></script>
+
+        @yield('footer_script')
 
     </body>
 </html>

@@ -390,7 +390,7 @@
                             </li>
                             <li>
                                 <span><i class="fas fa-map-marker-alt"></i></span>
-                                <p>Address <span> 123 Business Centre London SW1A 1AA</span></p>
+                                <p>Address <span> Mirpur 01, Zoo Road, Dhaka 1216</span></p>
                             </li>
                         </ul>
                     </div>
